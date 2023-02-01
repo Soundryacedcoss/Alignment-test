@@ -1,12 +1,18 @@
-
-.RegisterContainer{
-  text-align: center;
-  margin: 2% 4%;
+.RegisterContainer {
+  margin: 2% 45%;
 }
-.success{
+.success {
   border: solid green 1px;
 }
 
-.Error{
+.Error {
   border: solid red 1px;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.SuccesMsg {
+  color: green;
 }

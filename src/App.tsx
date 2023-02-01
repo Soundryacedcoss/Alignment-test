@@ -5,13 +5,12 @@ export const dataContext = createContext({})
 export const attemptContext = createContext({})
 function App() {
   const [otp, setOtp] = useState("")
-  const [leftAttempt, setLeftAttempt] = useState(6)
-  
+  const [leftAttempt, setLeftAttempt] = useState(5)
   return (
     <div className="App">
       <dataContext.Provider value={{ otp, setOtp }}>
         <attemptContext.Provider value={{ leftAttempt, setLeftAttempt }}>
-          <Register />
+            <Register />
         </attemptContext.Provider>
       </dataContext.Provider>
     </div>
