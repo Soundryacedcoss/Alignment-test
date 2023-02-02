@@ -30,8 +30,6 @@ export const OtpLayout = (props: OtpLayoutProps) => {
         // validation for checking otp with input data
         if (OtpInString === UserValue && UserValue.length === 5) {
             setMsg("Otp Matched!")
-            console.log(msg.length);
-
         }
         else if (OtpInString !== UserValue && UserValue.length === 5) {
             setMsg("Entered One Time Password is Incorrect!")

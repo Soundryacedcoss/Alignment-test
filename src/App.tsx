@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <dataContext.Provider value={{ otp, setOtp }}>
         <attemptContext.Provider value={{ leftAttempt, setLeftAttempt }}>
-            <Register />
+          <Register />
         </attemptContext.Provider>
       </dataContext.Provider>
     </div>
