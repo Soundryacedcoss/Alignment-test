@@ -2,7 +2,7 @@
   margin: 2% 45%;
 }
 .success {
-  border: solid green 1px;
+  border: solid green 2px;
 }
 
 .Error {
@@ -17,7 +17,17 @@
   color: green;
 }
 
-.Register_Container{
-  margin: 2% 40%;
-  
+.Register_container {
+  margin: 3% 14%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 2% 6%;
+}
+.input_box {
+  width: 15%;
+  border-radius: 12px;
+  margin-right: 4%;
+  padding-left: 2%;
+}
+.border {
+  border: solid gray 2px;
 }
